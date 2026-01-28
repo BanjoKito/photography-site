@@ -47,4 +47,22 @@ html {
     list-style-type: square;
     padding-left: 20px;
 }
+.photos img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+img:hover {
+  transform: scale(1.0);
+  filter: brightness(120%);
+}
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  background: #2e4aff;
+  padding: 1rem;
+}
 
